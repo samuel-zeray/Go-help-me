@@ -1,0 +1,265 @@
+body{
+	width:100%;
+	height:100%;
+	background-color: #fff;
+}
+#header{
+	text-transform:upercase;
+	margin-top:30px;
+}
+.nav-l{
+	padding:1px;
+
+	color: black;
+	text-transform:uppercase;
+	font-family:  upper-alpha;
+	text-align:center;
+}
+
+.nav-l:hover{
+	background-color:#90f90f;
+	box-shadow:5px 5px 0px 1px black;
+	color:black;
+}
+.logo{
+	width:auto;
+
+	margin-top:20px;
+	margin-left:100px;
+	transition:1s;
+	
+}
+#logo:hover{
+	box-shadow:10px 10px 5px 10px;
+	}
+.wrap{
+	width: 100%;
+	height: 20px;
+	background-color: #433467;
+}
+.container{
+	margin-top: 10px;
+}
+.welcome{
+	margin-top: 20px;
+}
+a{
+	@media(min-width:100vh){
+		text-align: center;
+}}
+.sect{
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-top:80px;
+    padding-bottom: 80px;
+    border-bottom: 2px solid rgb(white, white, white);
+}
+#left{
+    padding-left: 100px;
+}
+#left:hover{
+	box-shadow:10px 10px 10px 10px black;
+}
+#wrap2{
+	text-align: center;
+	color:#ffffff;
+	background-color: #aaffaa;
+	height: auto;
+	width: auto;
+}
+#wrap2:hover{
+	background-color: #eef000;
+	box-shadow: 5px 5px 0px 10px black;
+}
+.co{
+	position: absolute;
+	top:0;
+	right:0;
+	width: 100%;
+}
+	
+.rank-blue{
+	background-color:#4444ff;
+	color:yellow;
+	padding: 5px;
+}
+.rank-yellow{
+	background-color:orange;
+	color:black;
+	padding: 5px;
+}
+.rank-red{
+	background-color:#ef0909;
+	color:black;
+	padding: 5px;
+}
+.rank-green{
+	background-color:#09ef09;
+	color:black;
+	padding: 5px;
+}
+.card-ho{
+	box-shadow: 10px 3px 10px 0px #000;
+	top:-10%;
+	transition: .5s;
+	
+}
+.card-ho:hover{
+	top:-17%;
+}
+
+
+.card-abu{
+	
+	box-shadow: -6px -3px 10px 0px #000;
+	
+	transition: .5s;
+	
+}
+.card-text{
+	color: black;
+}
+.card-title{
+	color: white;
+}
+.title-text{
+	position: absolute;
+	top:30%;
+	left:2%;
+}
+
+.tag{
+	background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.05));
+	position: absolute;
+	max-width: 35%;
+	top: 0px; 
+	left:0px;
+	height:97%;
+	border-bottom-left-radius:5px;
+	border-top-left-radius:5px;
+	border-bottom-right-radius:5px;
+	border-top-right-radius:5px;
+	padding:10px;
+	
+	
+}
+.tag-about{
+	background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.05));
+	position: absolute;
+	max-width: 36%;
+	top: 0px; 
+	left:0px;
+	max-height:100%;
+	overflow:auto;
+	border-bottom-left-radius:5px;
+	border-top-left-radius:5px;
+	border-bottom-right-radius:5px;
+	border-top-right-radius:5px;
+	padding:10px;
+	
+	
+}
+.tag-about1{
+
+	position: absolute;
+	top: 20%; 
+	left:2%;
+	max-height:100%;
+	overflow:auto;
+	border-bottom-left-radius:5px;
+	border-top-left-radius:5px;
+	border-bottom-right-radius:5px;
+	border-top-right-radius:5px;
+	padding:10px;
+	
+}
+.tag-contact-icon{
+
+	position:absolute;
+	top: 60%; 
+	width:100%;
+	border-bottom-left-radius:5px;
+	border-top-left-radius:5px;
+	border-bottom-right-radius:5px;
+	border-top-right-radius:5px;
+	padding:10px;
+}
+.tag-contact-icon-md{
+
+	position:absolute;
+	top: 55%; 
+	width:100%;
+	display: block;
+	border-bottom-left-radius:5px;
+	border-top-left-radius:5px;
+	border-bottom-right-radius:5px;
+	border-top-right-radius:5px;
+	padding:10px;
+}
+.tag-contact-text{
+
+	position:absolute;
+	top: 80%; 
+	left:40%;
+	text-align:center;
+	padding:10px;
+}
+.tag-contact-text-top-md{
+
+	position:absolute;
+	top: 10%; 
+
+	padding:10px;
+	left:5%;
+	text-align:center;
+	color:white;
+	
+}
+
+.tag-contact-text-md{
+
+	position:absolute;
+	top: 70%; 
+	left:40%;
+	text-align:center;
+	padding:10px;
+}
+.icons{
+	margin-left:0px;
+	width:7%;
+	display: inline;
+}
+.opa-white{
+	background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(255, 90, 0, .8));
+	
+}
+
+.wrap-card-about{
+	position:absolute;
+	top:15%;
+	left:40%;
+	width:55%;
+	background-color: white;
+	max-height:70%;
+	padding-left:5px;
+	padding-right:5px;
+	border-top-right-radius:10px;
+	overflow:auto;
+}
+
+.wrap-donate{
+	position: absolute;
+	top: 10%;
+	left: 60%;
+	width:40%;
+	background-color: #eeee34;
+}
+.brand-text-name{
+	position: absolute;
+	top:25%;
+	left:60%;
+	font-family: imesnewroman;
+	
+}
